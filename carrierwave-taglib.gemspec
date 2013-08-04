@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.files             = %w( README.md LICENSE )
   s.files            += Dir.glob("lib/**/*")
   s.description       = DESC
+  s.license           = 'MIT'
 
   s.add_dependency "carrierwave"
   s.add_dependency "taglib-ruby"
